@@ -17,7 +17,7 @@ test('unitOrder', () => {
   try {
     expect(received).toBe(expected);
   } catch (e) {
-    console.log('doesnt work');
+    console.log('toBe doesnt work');
   }
   expect(received).toEqual(expected);
 });
